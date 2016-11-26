@@ -1,15 +1,19 @@
-<manifest alg="2" build="2015.2.0.352" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="Sugarmalibu.ru" resolutions="1x" timestamp="1480178291156">
+<manifest alg="2" build="2015.2.0.352" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="Sugarmalibu.ru" resolutions="1x" timestamp="1480180610011">
   <folder name="css">
     <file name="site_global.css" crc="3916556066"/>
-    <file name="index.css" crc="3960836652" ref="index"/>
+    <file name="index.css" crc="4170843293" ref="index"/>
+    <file name="_________.css" crc="318626197" ref="косметика"/>
+    <file name="________-______.css" crc="318626197" ref="ногтевой-сервис"/>
+    <file name="_________1.css" crc="319476823" ref="конятакты"/>
+    <file name="________.css" crc="318626197" ref="шугаринг"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="312386352" ref="index"/>
-    <file name="museutils.js" crc="4155826306" ref="index"/>
-    <file name="whatinput.js" crc="86476730" ref="index"/>
-    <file name="museconfig.js" crc="483509463" ref="index"/>
-    <file name="jquery.watch.js" crc="117772946" ref="index"/>
-    <file name="require.js" crc="228336483" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="312386352" ref="index:шугаринг:ногтевой-сервис:косметика:конятакты"/>
+    <file name="museutils.js" crc="4155826306" ref="index:шугаринг:ногтевой-сервис:косметика:конятакты"/>
+    <file name="whatinput.js" crc="86476730" ref="index:шугаринг:ногтевой-сервис:косметика:конятакты"/>
+    <file name="museconfig.js" crc="483509463" ref="index:шугаринг:ногтевой-сервис:косметика:конятакты"/>
+    <file name="jquery.watch.js" crc="117772946" ref="index:шугаринг:ногтевой-сервис:косметика:конятакты"/>
+    <file name="require.js" crc="228336483" ref="index:шугаринг:ногтевой-сервис:косметика:конятакты"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="4034513494" ref="index"/>
     <file name="pie.js" crc="3827607177" ref="index"/>
     <file name="webpro.js" crc="4078243563" ref="index"/>
@@ -22,7 +26,7 @@
     <file name="form-u314.php" crc="3840109277" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="225761.jpg" crc="4124831593" ref="index"/>
+    <file name="225761.jpg" crc="442647568" ref="index"/>
     <file name="u217-4-a.png" crc="105637662" ref="index"/>
     <file name="u248-4.png" crc="227448745" ref="index"/>
     <file name="u271-grad.png" crc="92500629" ref="index"/>
@@ -44,6 +48,11 @@
     <file name="u294-r-grad.png" crc="147619446" ref="index"/>
     <file name="u294-m-grad.png" crc="404552649" ref="index"/>
     <file name="u294-a-grad.png" crc="182057002" ref="index"/>
+    <file name="pejzazhi-palmy-palma-bereg-plyazhi-voda-pesok-solnce-okean-more.jpg" crc="487119982" seo="true" ref="конятакты"/>
   </folder>
-  <file name="index.html" crc="3840980343" seo="true" mt="1480178290041" redirect="true"/>
+  <file name="index.html" crc="3962941599" seo="true" mt="1480180608390" redirect="true"/>
+  <file name="шугаринг.html" crc="248081407" seo="true" mt="1480178765294" redirect="false"/>
+  <file name="ногтевой-сервис.html" crc="3934439470" seo="true" mt="1480178772666" redirect="false"/>
+  <file name="косметика.html" crc="3876759874" seo="true" mt="1480178779591" redirect="false"/>
+  <file name="конятакты.html" crc="245403031" seo="true" mt="1480179244381" redirect="true"/>
 </manifest>
