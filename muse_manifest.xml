@@ -1,7 +1,7 @@
-<manifest alg="2" build="2015.2.0.352" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="Sugarmalibu.ru" resolutions="1x" timestamp="1480177136824">
+<manifest alg="2" build="2015.2.0.352" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="Sugarmalibu.ru" resolutions="1x" timestamp="1480178291156">
   <folder name="css">
     <file name="site_global.css" crc="3916556066"/>
-    <file name="index.css" crc="4170227333" ref="index"/>
+    <file name="index.css" crc="3960836652" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="312386352" ref="index"/>
@@ -16,20 +16,23 @@
     <file name="musewpslideshow.js" crc="4115829919" ref="index"/>
     <file name="jquery.museoverlay.js" crc="3936724022" ref="index"/>
     <file name="touchswipe.js" crc="157639107" ref="index"/>
+    <file name="form_check.php" crc="474517188" ref="index"/>
+    <file name="form_throttle.php" crc="495784356" ref="index"/>
+    <file name="form_process.php" crc="4149049960" ref="index"/>
+    <file name="form-u314.php" crc="3840109277" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="225761.jpg" crc="3869768441" ref="index"/>
+    <file name="225761.jpg" crc="4124831593" ref="index"/>
     <file name="u217-4-a.png" crc="105637662" ref="index"/>
     <file name="u248-4.png" crc="227448745" ref="index"/>
-    <file name="u271-grad.png" crc="212454662" ref="index"/>
-    <file name="u271-r-grad.png" crc="147619446" ref="index"/>
-    <file name="u271-m-grad.png" crc="404552649" ref="index"/>
-    <file name="u271-a-grad.png" crc="182057002" ref="index"/>
+    <file name="u271-grad.png" crc="92500629" ref="index"/>
+    <file name="u271-r-grad.png" crc="456341685" ref="index"/>
+    <file name="u271-m-grad.png" crc="306809125" ref="index"/>
+    <file name="u271-a-grad.png" crc="122077060" ref="index"/>
     <file name="u330-17.png" crc="3894249338" ref="index"/>
     <file name="u330-17-r.png" crc="4225054084" ref="index"/>
     <file name="u330-17-m.png" crc="159655192" ref="index"/>
     <file name="u330-17-fs.png" crc="4081955482" ref="index"/>
-    <file name="captcha.png" crc="3889109245" ref="index"/>
     <file name="checkboxunchecked.jpg" crc="3995141794" ref="index"/>
     <file name="checkboxuncheckedrollover.jpg" crc="4064281604" ref="index"/>
     <file name="checkboxuncheckedmousedown.jpg" crc="187163638" ref="index"/>
@@ -37,6 +40,10 @@
     <file name="checkboxcheckedrollover.jpg" crc="9876373" ref="index"/>
     <file name="checkboxcheckedmousedown.jpg" crc="4102437312" ref="index"/>
     <file name="u722-r-grad.png" crc="4188574361" ref="index"/>
+    <file name="u294-grad.png" crc="212454662" ref="index"/>
+    <file name="u294-r-grad.png" crc="147619446" ref="index"/>
+    <file name="u294-m-grad.png" crc="404552649" ref="index"/>
+    <file name="u294-a-grad.png" crc="182057002" ref="index"/>
   </folder>
-  <file name="index.html" crc="271704635" seo="true" mt="1480177135188" redirect="true"/>
+  <file name="index.html" crc="3840980343" seo="true" mt="1480178290041" redirect="true"/>
 </manifest>
