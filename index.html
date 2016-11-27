@@ -6,109 +6,122 @@
   <meta name="generator" content="2015.2.0.352"/>
   
   <script type="text/javascript">
-   // Update the 'nojs'/'js' class on the html node
+   // Redirect to phone/tablet as necessary
+(function(a,b,c){var d=function(){if(navigator.maxTouchPoints>1)return!0;if(window.matchMedia&&window.matchMedia("(-moz-touch-enabled)").matches)return!0;for(var a=["Webkit","Moz","O","ms","Khtml"],b=0,c=a.length;b<c;b++){var f=a[b]+"MaxTouchPoints";if(f in navigator&&navigator[f])return!0}try{return document.createEvent("TouchEvent"),!0}catch(d){}return!1}(),g=function(a){a+="=";for(var b=document.cookie.split(";"),c=0;c<b.length;c++){for(var f=b[c];f.charAt(0)==" ";)f=f.substring(1,f.length);if(f.indexOf(a)==
+0)return f.substring(a.length,f.length)}return null};if(g("inbrowserediting")!="true"){var f,g=g("devicelock");g=="phone"&&c?f=c:g=="tablet"&&b&&(f=b);if(g!=a&&!f)if(window.matchMedia)window.matchMedia("(max-device-width: 415px)").matches&&c?f=c:window.matchMedia("(max-device-width: 960px)").matches&&b&&d&&(f=b);else{var a=Math.min(screen.width,screen.height)/(window.devicePixelRatio||1),g=window.screen.systemXDPI||0,i=window.screen.systemYDPI||0,g=g>0&&i>0?Math.min(screen.width/g,screen.height/i):
+0;(a<=370||g!=0&&g<=3)&&c?f=c:a<=960&&b&&d&&(f=b)}if(f)document.location=f+(document.location.search||"")+(document.location.hash||""),document.write('<style type="text/css">body {visibility:hidden}</style>')}})("desktop","","phone/index.html");
+
+// Update the 'nojs'/'js' class on the html node
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.watch.js", "require.js", "index.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "require.js", "index.css"], "outOfDate":[]};
 </script>
   
-  <title>Домашняя</title>
+  <link media="only screen and (max-width: 370px)" rel="alternate" href="http://Sugarmalibu.ru/phone/index.html"/>
+  <title>Главняя</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3916556066"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4170843293" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3804202191" id="pagesheet"/>
    </head>
  <body>
 
-  <div class="clearfix gradient" id="page"><!-- group -->
-   <div class="clearfix grpelem" id="pu1238"><!-- group -->
-    <div class="museBGSize clearfix grpelem" id="u1238"><!-- column -->
-     <div class="clearfix colelem" id="pu217-4"><!-- group -->
-      <a class="nonblock nontext MuseLinkActive grpelem" id="u217-4" href="index.html" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9613,M12=-0.2756,M21=0.2756,M22=0.9613,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-16" data-mu-ie-matrix-dy="-61"><!-- rasterized frame --><img id="u217-4_img" alt="Malibu" width="469" height="180" src="images/u217-4-a.png?crc=105637662"/></a>
-      <img class="grpelem" id="u248-4" alt="Студия Шугаринга" width="782" height="288" src="images/u248-4.png?crc=227448745"/><!-- rasterized frame -->
+  <div class="clearfix" id="page"><!-- group -->
+   <div class="browser_width grpelem" id="u1794-bw">
+    <div class="museBGSize rgba-background" id="u1794"><!-- group -->
+     <div class="clearfix" id="u1794_align_to_page">
+      <a class="nonblock nontext MuseLinkActive grpelem" id="u217-4" href="index.html" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9903,M12=-0.1392,M21=0.1392,M22=0.9903,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-8" data-mu-ie-matrix-dy="-32"><!-- rasterized frame --><img id="u217-4_img" alt="Malibu" width="469" height="144" src="images/u217-4-a.png?crc=4216472237"/></a>
+      <img class="grpelem" id="u248-4" alt="Студия шугаринга и ногтевого сервиса" width="586" height="36" src="images/u248-4.png?crc=4173460071"/><!-- rasterized frame -->
+      <a class="nonblock nontext MuseLinkActive shadow gradient rounded-corners transition clearfix grpelem" id="u271-4" href="index.html"><!-- content --><p>&nbsp;Главная</p></a>
+      <a class="nonblock nontext shadow gradient rounded-corners transition clearfix grpelem" id="u294-4" href="http://yandex.ru"><!-- content --><p>Услуги</p></a>
+      <a class="nonblock nontext shadow gradient rounded-corners transition clearfix grpelem" id="u297-4" href="http://yandex.ru"><!-- content --><p>Статьи</p></a>
+      <div class="clearfix grpelem" id="u1758-4"><!-- content -->
+       <p>г. Москва ул. Толбухина д.10, к1.</p>
+      </div>
+      <div class="clearfix grpelem" id="u1761-4"><!-- content -->
+       <p>т +7(909)670-84-90</p>
+      </div>
+      <a class="nonblock nontext shadow gradient rounded-corners transition clearfix grpelem" id="u1825-4" href="http://yandex.ru"><!-- content --><p>Акции</p></a>
+      <a class="nonblock nontext shadow gradient rounded-corners clearfix grpelem" id="u1836-4" href="%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d1%8b.html"><!-- content --><p>Контакты</p></a>
      </div>
-     <a class="nonblock nontext shadow gradient rounded-corners transition clearfix colelem" id="u271-5" href="http://yandex.ru"><!-- content --><p>&nbsp;<span id="u271-2">Домашняя</span></p></a>
-     <a class="nonblock nontext shadow gradient rounded-corners transition clearfix colelem" id="u294-4" href="http://yandex.ru"><!-- content --><p>Шугаринг</p></a>
-     <a class="nonblock nontext shadow gradient rounded-corners transition clearfix colelem" id="u297-4" href="http://yandex.ru"><!-- content --><p>Ногтевой сервис</p></a>
-     <a class="nonblock nontext shadow gradient rounded-corners clearfix colelem" id="u307-4" href="%d0%ba%d0%be%d0%bd%d1%8f%d1%82%d0%b0%d0%ba%d1%82%d1%8b.html"><!-- content --><p>Наши контакты</p></a>
     </div>
-    <div class="PamphletWidget clearfix widget_invisible grpelem" id="pamphletu710"><!-- none box -->
-     <div class="popup_anchor" id="u715popup">
-      <div class="ContainerGroup rgba-background clearfix" id="u715"><!-- stack box -->
-       <div class="Container invi clearfix grpelem" id="u716"><!-- group -->
-        <form class="form-grp clearfix grpelem" id="widgetu314" method="post" enctype="multipart/form-data" action="scripts/form-u314.php"><!-- none box -->
-         <div class="fld-grp clearfix grpelem" id="widgetu315" data-required="true"><!-- none box -->
-          <label class="fld-label actAsDiv clearfix grpelem" id="u317-4" for="widgetu315_input"><!-- content --><span class="actAsPara">Ваше Имя:</span></label>
-          <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u318-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu315_input" name="custom_U315" tabindex="1"/><label class="wrapped-input fld-prompt" id="widgetu315_prompt" for="widgetu315_input"><span class="actAsPara">Введите имя</span></label></span>
-         </div>
-         <div class="fld-grp clearfix grpelem" id="widgetu325" data-required="false" data-type="email"><!-- none box -->
-          <label class="fld-label actAsDiv clearfix grpelem" id="u327-4" for="widgetu325_input"><!-- content --><span class="actAsPara">Электронная почта:</span></label>
-          <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u326-4"><!-- content --><input class="wrapped-input" type="email" spellcheck="false" id="widgetu325_input" name="Email" tabindex="2"/><label class="wrapped-input fld-prompt" id="widgetu325_prompt" for="widgetu325_input"><span class="actAsPara">Введите адрес электронной почты</span></label></span>
-         </div>
-         <div class="clearfix grpelem" id="u329-4"><!-- content -->
-          <p>Отправка формы…</p>
-         </div>
-         <div class="clearfix grpelem" id="u319-4"><!-- content -->
-          <p>На сервере произошла ошибка.</p>
-         </div>
-         <div class="clearfix grpelem" id="u320-4"><!-- content -->
-          <p>Форма получена.</p>
-         </div>
-         <input class="submit-btn NoWrap grpelem" id="u330-17" type="submit" value="" tabindex="9"/><!-- state-based BG images -->
-         <div class="fld-grp clearfix grpelem" id="widgetu321" data-required="false"><!-- none box -->
-          <label class="fld-label actAsDiv clearfix grpelem" id="u323-4" for="widgetu321_input"><!-- content --><span class="actAsPara">Сообщение:</span></label>
-          <span class="fld-textarea actAsDiv clearfix grpelem" id="u324-4"><!-- content --><textarea class="wrapped-input" id="widgetu321_input" name="custom_U321" tabindex="8"></textarea><label class="wrapped-input fld-prompt" id="widgetu321_prompt" for="widgetu321_input"><span class="actAsPara">Введите сообщение</span></label></span>
-         </div>
-         <div class="fld-grp clearfix grpelem" id="widgetu513" data-required="true"><!-- none box -->
-          <label class="fld-label actAsDiv clearfix grpelem" id="u515-4" for="widgetu513_input"><!-- content --><span class="actAsPara">Мобильный телефон:</span></label>
-          <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u516-4"><!-- content --><input class="wrapped-input" type="tel" spellcheck="false" id="widgetu513_input" name="custom_U513" tabindex="3"/><label class="wrapped-input fld-prompt" id="widgetu513_prompt" for="widgetu513_input"><span class="actAsPara">Введите номер телефона</span></label></span>
-         </div>
-         <div class="fld-grp clearfix grpelem" id="widgetu537" data-required="true"><!-- none box -->
-          <label class="fld-label actAsDiv clearfix grpelem" id="u539-4" for="widgetu537_input"><!-- content --><span class="actAsPara">Укажите удобную&nbsp; для Вас дату и время:</span></label>
-          <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u538-4"><!-- content --><input class="wrapped-input" type="text" id="widgetu537_input" name="custom_U537" tabindex="7"/><label class="wrapped-input fld-prompt" id="widgetu537_prompt" for="widgetu537_input"><span class="actAsPara">Введите текст</span></label></span>
-         </div>
-         <div class="fld-grp clearfix grpelem" id="widgetu568" data-required="true" data-type="checkbox"><!-- none box -->
-          <label class="fld-label actAsDiv clearfix grpelem" id="u569-4" for="widgetu568_input"><!-- content --><span class="actAsPara">Шугаринг</span></label>
-          <div class="fld-checkbox museBGSize grpelem" id="u576"><!-- simple frame -->
-           <input class="wrapped-input" type="checkbox" value="1" id="widgetu568_input" name="custom_U568" tabindex="4"/>
-           <label for="widgetu568_input"></label>
-          </div>
-         </div>
-         <div class="fld-grp clearfix grpelem" id="widgetu625" data-required="true" data-type="checkbox"><!-- none box -->
-          <label class="fld-label actAsDiv clearfix grpelem" id="u628-4" for="widgetu625_input"><!-- content --><span class="actAsPara">Ногтевой сервис</span></label>
-          <div class="fld-checkbox museBGSize grpelem" id="u626"><!-- simple frame -->
-           <input class="wrapped-input" type="checkbox" value="1" id="widgetu625_input" name="custom_U625" tabindex="5"/>
-           <label for="widgetu625_input"></label>
-          </div>
-         </div>
-         <div class="fld-grp clearfix grpelem" id="widgetu637" data-required="true" data-type="checkbox"><!-- none box -->
-          <label class="fld-label actAsDiv clearfix grpelem" id="u639-4" for="widgetu637_input"><!-- content --><span class="actAsPara">Приобретение натуральной косметики</span></label>
-          <div class="fld-checkbox museBGSize grpelem" id="u638"><!-- simple frame -->
-           <input class="wrapped-input" type="checkbox" value="1" id="widgetu637_input" name="custom_U637" tabindex="6"/>
-           <label for="widgetu637_input"></label>
-          </div>
-         </div>
-        </form>
-        <div class="clearfix grpelem" id="u652-4"><!-- content -->
-         <p>Вид услуг:</p>
+   </div>
+   <div class="PamphletWidget clearfix widget_invisible grpelem" id="pamphletu710"><!-- none box -->
+    <div class="popup_anchor" id="u715popup">
+     <div class="ContainerGroup rgba-background clearfix" id="u715"><!-- stack box -->
+      <div class="Container invi clearfix grpelem" id="u716"><!-- group -->
+       <form class="form-grp clearfix grpelem" id="widgetu314" method="post" enctype="multipart/form-data" action="scripts/form-u314.php"><!-- none box -->
+        <div class="fld-grp clearfix grpelem" id="widgetu315" data-required="true"><!-- none box -->
+         <label class="fld-label actAsDiv clearfix grpelem" id="u317-4" for="widgetu315_input"><!-- content --><span class="actAsPara">Ваше Имя:</span></label>
+         <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u318-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu315_input" name="custom_U315" tabindex="1"/><label class="wrapped-input fld-prompt" id="widgetu315_prompt" for="widgetu315_input"><span class="actAsPara">Введите имя</span></label></span>
         </div>
+        <div class="fld-grp clearfix grpelem" id="widgetu325" data-required="false" data-type="email"><!-- none box -->
+         <label class="fld-label actAsDiv clearfix grpelem" id="u327-4" for="widgetu325_input"><!-- content --><span class="actAsPara">Электронная почта:</span></label>
+         <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u326-4"><!-- content --><input class="wrapped-input" type="email" spellcheck="false" id="widgetu325_input" name="Email" tabindex="2"/><label class="wrapped-input fld-prompt" id="widgetu325_prompt" for="widgetu325_input"><span class="actAsPara">Введите адрес электронной почты</span></label></span>
+        </div>
+        <div class="clearfix grpelem" id="u329-4"><!-- content -->
+         <p>Отправка формы…</p>
+        </div>
+        <div class="clearfix grpelem" id="u319-4"><!-- content -->
+         <p>На сервере произошла ошибка.</p>
+        </div>
+        <div class="clearfix grpelem" id="u320-4"><!-- content -->
+         <p>Форма получена.</p>
+        </div>
+        <input class="submit-btn NoWrap grpelem" id="u330-17" type="submit" value="" tabindex="9"/><!-- state-based BG images -->
+        <div class="fld-grp clearfix grpelem" id="widgetu321" data-required="false"><!-- none box -->
+         <label class="fld-label actAsDiv clearfix grpelem" id="u323-4" for="widgetu321_input"><!-- content --><span class="actAsPara">Сообщение:</span></label>
+         <span class="fld-textarea actAsDiv clearfix grpelem" id="u324-4"><!-- content --><textarea class="wrapped-input" id="widgetu321_input" name="custom_U321" tabindex="8"></textarea><label class="wrapped-input fld-prompt" id="widgetu321_prompt" for="widgetu321_input"><span class="actAsPara">Введите сообщение</span></label></span>
+        </div>
+        <div class="fld-grp clearfix grpelem" id="widgetu513" data-required="true"><!-- none box -->
+         <label class="fld-label actAsDiv clearfix grpelem" id="u515-4" for="widgetu513_input"><!-- content --><span class="actAsPara">Мобильный телефон:</span></label>
+         <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u516-4"><!-- content --><input class="wrapped-input" type="tel" spellcheck="false" id="widgetu513_input" name="custom_U513" tabindex="3"/><label class="wrapped-input fld-prompt" id="widgetu513_prompt" for="widgetu513_input"><span class="actAsPara">Введите номер телефона</span></label></span>
+        </div>
+        <div class="fld-grp clearfix grpelem" id="widgetu537" data-required="true"><!-- none box -->
+         <label class="fld-label actAsDiv clearfix grpelem" id="u539-4" for="widgetu537_input"><!-- content --><span class="actAsPara">Укажите удобную&nbsp; для Вас дату и время:</span></label>
+         <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u538-4"><!-- content --><input class="wrapped-input" type="text" id="widgetu537_input" name="custom_U537" tabindex="7"/><label class="wrapped-input fld-prompt" id="widgetu537_prompt" for="widgetu537_input"><span class="actAsPara">Введите текст</span></label></span>
+        </div>
+        <div class="fld-grp clearfix grpelem" id="widgetu568" data-required="true" data-type="checkbox"><!-- none box -->
+         <label class="fld-label actAsDiv clearfix grpelem" id="u569-4" for="widgetu568_input"><!-- content --><span class="actAsPara">Шугаринг</span></label>
+         <div class="fld-checkbox museBGSize grpelem" id="u576"><!-- simple frame -->
+          <input class="wrapped-input" type="checkbox" value="1" id="widgetu568_input" name="custom_U568" tabindex="4"/>
+          <label for="widgetu568_input"></label>
+         </div>
+        </div>
+        <div class="fld-grp clearfix grpelem" id="widgetu625" data-required="true" data-type="checkbox"><!-- none box -->
+         <label class="fld-label actAsDiv clearfix grpelem" id="u628-4" for="widgetu625_input"><!-- content --><span class="actAsPara">Ногтевой сервис</span></label>
+         <div class="fld-checkbox museBGSize grpelem" id="u626"><!-- simple frame -->
+          <input class="wrapped-input" type="checkbox" value="1" id="widgetu625_input" name="custom_U625" tabindex="5"/>
+          <label for="widgetu625_input"></label>
+         </div>
+        </div>
+        <div class="fld-grp clearfix grpelem" id="widgetu637" data-required="true" data-type="checkbox"><!-- none box -->
+         <label class="fld-label actAsDiv clearfix grpelem" id="u639-4" for="widgetu637_input"><!-- content --><span class="actAsPara">Приобретение натуральной косметики</span></label>
+         <div class="fld-checkbox museBGSize grpelem" id="u638"><!-- simple frame -->
+          <input class="wrapped-input" type="checkbox" value="1" id="widgetu637_input" name="custom_U637" tabindex="6"/>
+          <label for="widgetu637_input"></label>
+         </div>
+        </div>
+       </form>
+       <div class="clearfix grpelem" id="u652-4"><!-- content -->
+        <p>Вид услуг:</p>
        </div>
       </div>
      </div>
-     <div class="ThumbGroup clearfix grpelem" id="u719"><!-- none box -->
-      <div class="popup_anchor">
-       <div class="Thumb popup_element gradient rounded-corners clearfix" id="u722"><!-- group -->
-        <div class="clearfix grpelem" id="u1000-4"><!-- content -->
-         <p>Запись</p>
-        </div>
-       </div>
-      </div>
-     </div>
+    </div>
+    <div class="ThumbGroup clearfix grpelem" id="u719"><!-- none box -->
      <div class="popup_anchor">
-      <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix" id="u713"><!-- group -->
-       <div class="clearfix grpelem" id="u714-4"><!-- content -->
-        <p>x</p>
+      <div class="Thumb popup_element gradient rounded-corners clearfix" id="u722"><!-- group -->
+       <div class="clearfix grpelem" id="u1000-4"><!-- content -->
+        <p>Записаться</p>
        </div>
+      </div>
+     </div>
+    </div>
+    <div class="popup_anchor">
+     <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix" id="u713"><!-- group -->
+      <div class="clearfix grpelem" id="u714-4"><!-- content -->
+       <p>x</p>
       </div>
      </div>
     </div>
@@ -116,7 +129,56 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
    <div class="clearfix grpelem" id="u1145-3"><!-- content -->
     <p>&nbsp;</p>
    </div>
-   <div class="verticalspacer" data-offset-top="1018" data-content-above-spacer="1018" data-content-below-spacer="61"></div>
+   <div class="SlideShowWidget clearfix HeroFillFrame grpelem" id="slideshowu2458"><!-- none box -->
+    <div class="popup_anchor" id="u2470popup">
+     <div class="SlideShowContentPanel clearfix" id="u2470"><!-- stack box -->
+      <div class="SSSlide clip_frame grpelem" id="u2473"><!-- image -->
+       <img class="ImageInclude" id="u2473_img" data-src="images/225761.jpg?crc=4124831593" src="images/blank.gif?crc=4208392903" alt="" data-width="1229" data-height="768"/>
+      </div>
+      <div class="SSSlide invi clip_frame grpelem" id="u2722"><!-- image -->
+       <img class="ImageInclude" id="u2722_img" data-src="images/04ohmn.jpg?crc=4249141437" src="images/blank.gif?crc=4208392903" alt="" data-width="1220" data-height="828"/>
+      </div>
+      <div class="SSSlide invi clip_frame grpelem" id="u2749"><!-- image -->
+       <img class="ImageInclude" id="u2749_img" data-src="images/maldives-1.jpg?crc=4218012251" src="images/blank.gif?crc=4208392903" alt="" data-width="1220" data-height="813"/>
+      </div>
+      <div class="SSSlide invi clip_frame grpelem" id="u2776"><!-- image -->
+       <img class="ImageInclude" id="u2776_img" data-src="images/luxfoncom-21794.jpg?crc=4226667603" src="images/blank.gif?crc=4208392903" alt="" data-width="1229" data-height="768"/>
+      </div>
+     </div>
+    </div>
+    <div class="popup_anchor" id="u2479popup">
+     <div class="SlideShowCaptionPanel clearfix" id="u2479"><!-- stack box -->
+      <div class="SSSlideCaption clearfix grpelem" id="u2481-4"><!-- content -->
+       <p>Mauris sit amet tortor.</p>
+      </div>
+      <div class="SSSlideCaption invi clearfix grpelem" id="u2734-4"><!-- content -->
+       <p>Mauris sit amet tortor.2</p>
+      </div>
+      <div class="SSSlideCaption invi clearfix grpelem" id="u2761-4"><!-- content -->
+       <p>Mauris sit amet tortor.3</p>
+      </div>
+      <div class="SSSlideCaption invi clearfix grpelem" id="u2788-4"><!-- content -->
+       <p>Mauris sit amet tortor.4</p>
+      </div>
+     </div>
+    </div>
+    <div class="popup_anchor" id="u2469-4popup">
+     <div class="SlideShowLabel SSSlideCount clearfix" id="u2469-4"><!-- content -->
+      <p><span id="u2469">4 - 4</span></p>
+     </div>
+    </div>
+    <div class="popup_anchor" id="u2461-4popup">
+     <div class="SSPreviousButton clearfix" id="u2461-4"><!-- content -->
+      <p><span id="u2461">&lt;</span></p>
+     </div>
+    </div>
+    <div class="popup_anchor" id="u2459-4popup">
+     <div class="SSNextButton clearfix" id="u2459-4"><!-- content -->
+      <p>&gt;</p>
+     </div>
+    </div>
+   </div>
+   <div class="verticalspacer" data-offset-top="1104" data-content-above-spacer="1103" data-content-below-spacer="61"></div>
   </div>
   <div class="preload_images">
    <img class="preload" src="images/u330-17-r.png?crc=4225054084" alt=""/>
@@ -129,13 +191,10 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
    <img class="preload" src="images/checkboxcheckedrollover.jpg?crc=9876373" alt=""/>
    <img class="preload" src="images/checkboxcheckedmousedown.jpg?crc=4102437312" alt=""/>
    <!--[if lt IE 9]>
-   <img class="preload" src="images/u271-r-grad.png?crc=456341685" alt=""/>
-   <img class="preload" src="images/u271-m-grad.png?crc=306809125" alt=""/>
-   <img class="preload" src="images/u271-a-grad.png?crc=122077060" alt=""/>
-   <img class="preload" src="images/u294-r-grad.png?crc=147619446" alt=""/>
-   <img class="preload" src="images/u294-m-grad.png?crc=404552649" alt=""/>
-   <img class="preload" src="images/u294-a-grad.png?crc=182057002" alt=""/>
-   <img class="preload" src="images/u722-r-grad.png?crc=4188574361" alt=""/>
+   <img class="preload" src="images/u271-a-grad.png?crc=412792667" alt=""/>
+   <img class="preload" src="images/u294-r-grad.png?crc=174194191" alt=""/>
+   <img class="preload" src="images/u294-m-grad.png?crc=243818961" alt=""/>
+   <img class="preload" src="images/u722-r-grad.png?crc=61067748" alt=""/>
    <![endif]-->
   </div>
   <!-- Other scripts -->
@@ -144,13 +203,16 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 typeof $){b();$("body").append('<div class="version" style="display:none; width:1px; height:1px;"></div>');for(var f=$(".version"),j=0;j<Muse.assets.required.length;){var h=Muse.assets.required[j],i=h.match(/([\w\-\.]+)\.(\w+)$/),k=i&&i[1]?i[1]:null,i=i&&i[2]?i[2]:null;switch(i.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.addClass(k);var i=c(f.css("color")),l=c(f.css("background-color"));i!=0||l!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof a[h]&&(i!=
 a[h]>>>24||l!=(a[h]&16777215))&&Muse.assets.outOfDate.push(h)):j++;f.removeClass(k);break;case "js":k.match(/^jquery-[\d\.]+/gi)&&typeof $!="undefined"?Muse.assets.required.splice(j,1):j++;break;default:throw Error("Unsupported file type: "+i);}}f.remove()}if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Некоторые файлы на сервере могут отсутствовать или быть некорректными. Очистите кэш-память браузера и повторите попытку. Если проблему не удается устранить, свяжитесь с разработчиками сайта.",d&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),d&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),
 alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?setTimeout(function(){d(!0)},5E3):d()}};
-var muse_init=function(){require.config({baseUrl:""});require(["museutils","whatinput","jquery.musepolyfill.bgsize","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.watch"],function(){$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["museutils","whatinput","jquery.musepolyfill.bgsize","jquery.watch","webpro","musewpslideshow","jquery.museoverlay","touchswipe"],function(){$(document).ready(function(){try{
 window.Muse.assets.check();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.resizeHeight('.browser_width');/* resize height */
+Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.initWidget('#widgetu314', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu314 */
 Muse.Utils.initWidget('#pamphletu710', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'lightbox',event:'click',deactivationEvent:'mouseout_click',autoPlay:false,displayInterval:3000,transitionStyle:'horizontal',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu710 */
+Muse.Utils.initWidget('#slideshowu2458', ['#bp_infinity'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:true,displayInterval:7000,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:3000,enableSwipe:true,elastic:'fullWidth',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); $(elem).data('widget', widget); return widget; });/* #slideshowu2458 */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(a){if(a&&"function"==typeof a.notify?a.notify():Muse.Assert.fail("Error calling selector function: "+a),false)throw a;}})})};

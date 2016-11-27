@@ -1,58 +1,96 @@
-<manifest alg="2" build="2015.2.0.352" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="Sugarmalibu.ru" resolutions="1x" timestamp="1480180610011">
+<manifest alg="2" build="2015.2.0.352" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="Sugarmalibu.ru" resolutions="1x" timestamp="1480215243048">
+  <folder name="phone">
+    <folder name="css">
+      <file name="index.css" crc="4127272678" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="65002583" seo="true" mt="1480215224336" redirect="true"/>
+  </folder>
   <folder name="css">
     <file name="site_global.css" crc="3916556066"/>
-    <file name="index.css" crc="4170843293" ref="index"/>
+    <file name="index.css" crc="3804202191" ref="index"/>
     <file name="_________.css" crc="318626197" ref="косметика"/>
     <file name="________-______.css" crc="318626197" ref="ногтевой-сервис"/>
-    <file name="_________1.css" crc="319476823" ref="конятакты"/>
     <file name="________.css" crc="318626197" ref="шугаринг"/>
+    <file name="______.css" crc="318626197" ref="услуги"/>
+    <file name="______1.css" crc="318626197" ref="статьи"/>
+    <file name="_-_________1.css" crc="318626197" ref="о-косметике"/>
+    <file name="_-________-_______.css" crc="318626197" ref="о-ногтевом-сервисе"/>
+    <file name="_-_________.css" crc="318626197" ref="о-шугаринге"/>
+    <file name="_____.css" crc="495424295" ref="акции"/>
+    <file name="________1.css" crc="318626197" ref="контакты"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="312386352" ref="index:шугаринг:ногтевой-сервис:косметика:конятакты"/>
-    <file name="museutils.js" crc="4155826306" ref="index:шугаринг:ногтевой-сервис:косметика:конятакты"/>
-    <file name="whatinput.js" crc="86476730" ref="index:шугаринг:ногтевой-сервис:косметика:конятакты"/>
-    <file name="museconfig.js" crc="483509463" ref="index:шугаринг:ногтевой-сервис:косметика:конятакты"/>
-    <file name="jquery.watch.js" crc="117772946" ref="index:шугаринг:ногтевой-сервис:косметика:конятакты"/>
-    <file name="require.js" crc="228336483" ref="index:шугаринг:ногтевой-сервис:косметика:конятакты"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4034513494" ref="index"/>
-    <file name="pie.js" crc="3827607177" ref="index"/>
-    <file name="webpro.js" crc="4078243563" ref="index"/>
-    <file name="musewpslideshow.js" crc="4115829919" ref="index"/>
-    <file name="jquery.museoverlay.js" crc="3936724022" ref="index"/>
-    <file name="touchswipe.js" crc="157639107" ref="index"/>
-    <file name="form_check.php" crc="474517188" ref="index"/>
-    <file name="form_throttle.php" crc="495784356" ref="index"/>
-    <file name="form_process.php" crc="4149049960" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="312386352" ref="index:шугаринг:ногтевой-сервис:косметика:phone>index:акции:услуги:статьи:контакты:о-шугаринге:о-ногтевом-сервисе:о-косметике"/>
+    <file name="museutils.js" crc="4155826306" ref="index:шугаринг:ногтевой-сервис:косметика:phone>index:акции:услуги:статьи:контакты:о-шугаринге:о-ногтевом-сервисе:о-косметике"/>
+    <file name="whatinput.js" crc="86476730" ref="index:шугаринг:ногтевой-сервис:косметика:phone>index:акции:услуги:статьи:контакты:о-шугаринге:о-ногтевом-сервисе:о-косметике"/>
+    <file name="museconfig.js" crc="483509463" ref="index:шугаринг:ногтевой-сервис:косметика:phone>index:акции:услуги:статьи:контакты:о-шугаринге:о-ногтевом-сервисе:о-косметике"/>
+    <file name="jquery.watch.js" crc="117772946" ref="index:шугаринг:ногтевой-сервис:косметика:phone>index:акции:услуги:статьи:контакты:о-шугаринге:о-ногтевом-сервисе:о-косметике"/>
+    <file name="require.js" crc="228336483" ref="index:шугаринг:ногтевой-сервис:косметика:phone>index:акции:услуги:статьи:контакты:о-шугаринге:о-ногтевом-сервисе:о-косметике"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4034513494" ref="index:phone>index"/>
+    <file name="pie.js" crc="3827607177" ref="index:phone>index"/>
+    <file name="webpro.js" crc="4078243563" ref="index:phone>index"/>
+    <file name="musewpslideshow.js" crc="4115829919" ref="index:phone>index"/>
+    <file name="jquery.museoverlay.js" crc="3936724022" ref="index:phone>index"/>
+    <file name="touchswipe.js" crc="157639107" ref="index:phone>index"/>
+    <file name="form_check.php" crc="474517188" ref="phone>index"/>
+    <file name="form_throttle.php" crc="495784356" ref="phone>index"/>
+    <file name="form_process.php" crc="4149049960" ref="phone>index"/>
     <file name="form-u314.php" crc="3840109277" ref="index"/>
+    <file name="form-u1325.php" crc="4219285592" ref="phone>index"/>
+    <file name="jquery.musemenu.js" crc="3765356681" ref="акции"/>
+    <file name="html5shiv.js" crc="4241844378" ref="акции:услуги:статьи:контакты:шугаринг:ногтевой-сервис:косметика:о-шугаринге:о-ногтевом-сервисе:о-косметике"/>
   </folder>
   <folder name="images">
-    <file name="225761.jpg" crc="442647568" ref="index"/>
-    <file name="u217-4-a.png" crc="105637662" ref="index"/>
-    <file name="u248-4.png" crc="227448745" ref="index"/>
-    <file name="u271-grad.png" crc="92500629" ref="index"/>
-    <file name="u271-r-grad.png" crc="456341685" ref="index"/>
-    <file name="u271-m-grad.png" crc="306809125" ref="index"/>
-    <file name="u271-a-grad.png" crc="122077060" ref="index"/>
+    <file name="225761.jpg" crc="4124831593" ref="index:phone>index" seo="true"/>
+    <file name="u217-4-a.png" crc="4216472237" ref="index"/>
+    <file name="u248-4.png" crc="4173460071" ref="index"/>
+    <file name="u271-grad.png" crc="4110031043" ref="index"/>
+    <file name="u271-a-grad.png" crc="412792667" ref="index"/>
     <file name="u330-17.png" crc="3894249338" ref="index"/>
     <file name="u330-17-r.png" crc="4225054084" ref="index"/>
     <file name="u330-17-m.png" crc="159655192" ref="index"/>
     <file name="u330-17-fs.png" crc="4081955482" ref="index"/>
-    <file name="checkboxunchecked.jpg" crc="3995141794" ref="index"/>
-    <file name="checkboxuncheckedrollover.jpg" crc="4064281604" ref="index"/>
-    <file name="checkboxuncheckedmousedown.jpg" crc="187163638" ref="index"/>
-    <file name="checkboxchecked.jpg" crc="278809147" ref="index"/>
-    <file name="checkboxcheckedrollover.jpg" crc="9876373" ref="index"/>
-    <file name="checkboxcheckedmousedown.jpg" crc="4102437312" ref="index"/>
-    <file name="u722-r-grad.png" crc="4188574361" ref="index"/>
-    <file name="u294-grad.png" crc="212454662" ref="index"/>
-    <file name="u294-r-grad.png" crc="147619446" ref="index"/>
-    <file name="u294-m-grad.png" crc="404552649" ref="index"/>
-    <file name="u294-a-grad.png" crc="182057002" ref="index"/>
-    <file name="pejzazhi-palmy-palma-bereg-plyazhi-voda-pesok-solnce-okean-more.jpg" crc="487119982" seo="true" ref="конятакты"/>
+    <file name="checkboxunchecked.jpg" crc="3995141794" ref="index:phone>index"/>
+    <file name="checkboxuncheckedrollover.jpg" crc="4064281604" ref="index:phone>index"/>
+    <file name="checkboxuncheckedmousedown.jpg" crc="187163638" ref="index:phone>index"/>
+    <file name="checkboxchecked.jpg" crc="278809147" ref="index:phone>index"/>
+    <file name="checkboxcheckedrollover.jpg" crc="9876373" ref="index:phone>index"/>
+    <file name="checkboxcheckedmousedown.jpg" crc="4102437312" ref="index:phone>index"/>
+    <file name="u722-r-grad.png" crc="61067748" ref="index"/>
+    <file name="u294-r-grad.png" crc="174194191" ref="index"/>
+    <file name="u294-m-grad.png" crc="243818961" ref="index"/>
+    <file name="u1316-4.png" crc="105637662" ref="phone>index"/>
+    <file name="u1317-4.png" crc="227448745" ref="phone>index"/>
+    <file name="u1318-grad.png" crc="92500629" ref="phone>index"/>
+    <file name="u1318-r-grad.png" crc="456341685" ref="phone>index"/>
+    <file name="u1318-m-grad.png" crc="306809125" ref="phone>index"/>
+    <file name="u1318-a-grad.png" crc="122077060" ref="phone>index"/>
+    <file name="u1319-grad.png" crc="212454662" ref="phone>index"/>
+    <file name="u1319-r-grad.png" crc="147619446" ref="phone>index"/>
+    <file name="u1319-m-grad.png" crc="404552649" ref="phone>index"/>
+    <file name="u1319-a-grad.png" crc="182057002" ref="phone>index"/>
+    <file name="u1331-17.png" crc="3894249338" ref="phone>index"/>
+    <file name="u1331-17-r.png" crc="4225054084" ref="phone>index"/>
+    <file name="u1331-17-m.png" crc="159655192" ref="phone>index"/>
+    <file name="u1331-17-fs.png" crc="4081955482" ref="phone>index"/>
+    <file name="u1366-r-grad.png" crc="4188574361" ref="phone>index"/>
+    <file name="kartinkijaneru-56595-u1794-fr.png" crc="191632531" ref="index"/>
+    <file name="u722-grad.png" crc="4104814062" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="04ohmn.jpg" crc="4249141437" seo="true" ref="index"/>
+    <file name="maldives-1.jpg" crc="4218012251" seo="true" ref="index"/>
+    <file name="luxfoncom-21794.jpg" crc="4226667603" seo="true" ref="index"/>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
   </folder>
-  <file name="index.html" crc="3962941599" seo="true" mt="1480180608390" redirect="true"/>
-  <file name="шугаринг.html" crc="248081407" seo="true" mt="1480178765294" redirect="false"/>
-  <file name="ногтевой-сервис.html" crc="3934439470" seo="true" mt="1480178772666" redirect="false"/>
-  <file name="косметика.html" crc="3876759874" seo="true" mt="1480178779591" redirect="false"/>
-  <file name="конятакты.html" crc="245403031" seo="true" mt="1480179244381" redirect="true"/>
+  <file name="index.html" crc="3792073669" seo="true" mt="1480215224517" redirect="true"/>
+  <file name="шугаринг.html" crc="4141460404" seo="true" mt="1480212676948" redirect="false"/>
+  <file name="ногтевой-сервис.html" crc="4148760825" seo="true" mt="1480212686031" redirect="false"/>
+  <file name="косметика.html" crc="4092818278" seo="true" mt="1480212692546" redirect="false"/>
+  <file name="акции.html" crc="68155864" seo="true" mt="1480212642505" redirect="true"/>
+  <file name="услуги.html" crc="4209558669" seo="true" mt="1480213996421" redirect="false"/>
+  <file name="статьи.html" crc="274911146" seo="true" mt="1480212636813" redirect="false"/>
+  <file name="контакты.html" crc="113510659" seo="true" mt="1480212642511" redirect="false"/>
+  <file name="о-шугаринге.html" crc="3865528639" seo="true" mt="1480212718363" redirect="false"/>
+  <file name="о-ногтевом-сервисе.html" crc="4061503698" seo="true" mt="1480212729094" redirect="false"/>
+  <file name="о-косметике.html" crc="376325586" seo="true" mt="1480212735010" redirect="false"/>
 </manifest>
