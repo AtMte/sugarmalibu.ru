@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.2.0.352" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="Sugarmalibu.ru" resolutions="1x" timestamp="1480294722695">
+<manifest alg="2" build="2015.2.0.352" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="Sugarmalibu.ru" resolutions="1x" timestamp="1480296299008">
   <folder name="phone">
     <folder name="css">
       <file name="index.css" crc="520423333" ref="phone>index"/>
@@ -7,18 +7,18 @@
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="3916556066"/>
-    <file name="index.css" crc="320452982" ref="index"/>
-    <file name="_________.css" crc="320452982" ref="косметика"/>
-    <file name="________-______.css" crc="320452982" ref="ногтевой-сервис"/>
-    <file name="________.css" crc="320452982" ref="шугаринг"/>
-    <file name="______.css" crc="320452982" ref="услуги"/>
-    <file name="______1.css" crc="320452982" ref="статьи"/>
-    <file name="_-_________1.css" crc="320452982" ref="о-косметике"/>
-    <file name="_-________-_______.css" crc="320452982" ref="о-ногтевом-сервисе"/>
-    <file name="_-_________.css" crc="320452982" ref="о-шугаринге"/>
-    <file name="_____.css" crc="3840581031" ref="акции"/>
-    <file name="________1.css" crc="3884083996" ref="контакты"/>
-    <file name="master_______-a.css" crc="425207978" ref="услуги:index:шугаринг:косметика:о-косметике:о-ногтевом-сервисе:ногтевой-сервис:акции:о-шугаринге:статьи:контакты"/>
+    <file name="index.css" crc="415492382" ref="index"/>
+    <file name="_________.css" crc="3954832904" ref="косметика"/>
+    <file name="________-______.css" crc="3954832904" ref="ногтевой-сервис"/>
+    <file name="________.css" crc="3954832904" ref="шугаринг"/>
+    <file name="______.css" crc="3954832904" ref="услуги"/>
+    <file name="______1.css" crc="3954832904" ref="статьи"/>
+    <file name="_-_________1.css" crc="3954832904" ref="о-косметике"/>
+    <file name="_-________-_______.css" crc="3954832904" ref="о-ногтевом-сервисе"/>
+    <file name="_-_________.css" crc="3954832904" ref="о-шугаринге"/>
+    <file name="_____.css" crc="476903061" ref="акции"/>
+    <file name="________1.css" crc="4155473244" ref="контакты"/>
+    <file name="master_______-a.css" crc="3804651592" ref="услуги:index:шугаринг:косметика:о-косметике:о-ногтевом-сервисе:ногтевой-сервис:акции:о-шугаринге:статьи:контакты"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="312386352" ref="index:шугаринг:ногтевой-сервис:косметика:phone>index:акции:услуги:статьи:контакты:о-шугаринге:о-ногтевом-сервисе:о-косметике"/>
@@ -33,7 +33,7 @@
     <file name="musewpslideshow.js" crc="4115829919" ref="index:phone>index:акции:услуги:статьи:контакты:шугаринг:ногтевой-сервис:косметика:о-шугаринге:о-ногтевом-сервисе:о-косметике"/>
     <file name="jquery.museoverlay.js" crc="3936724022" ref="index:phone>index:акции:услуги:статьи:контакты:шугаринг:ногтевой-сервис:косметика:о-шугаринге:о-ногтевом-сервисе:о-косметике"/>
     <file name="touchswipe.js" crc="157639107" ref="index:phone>index:акции:услуги:статьи:контакты:шугаринг:ногтевой-сервис:косметика:о-шугаринге:о-ногтевом-сервисе:о-косметике"/>
-    <file name="jquery.musemenu.js" crc="3765356681" ref="акции:услуги:статьи:контакты:шугаринг:ногтевой-сервис:косметика:о-шугаринге:о-ногтевом-сервисе:о-косметике:index"/>
+    <file name="jquery.musemenu.js" crc="3765356681" ref="акции"/>
     <file name="html5shiv.js" crc="4241844378" ref="акции:услуги:статьи:контакты:шугаринг:ногтевой-сервис:косметика:о-шугаринге:о-ногтевом-сервисе:о-косметике:index"/>
   </folder>
   <folder name="images">
@@ -51,7 +51,7 @@
     <file name="194303-1ycn9s1394536379-u3716-r.png" crc="11627400" ref="акции:услуги:статьи:контакты:шугаринг:ногтевой-сервис:косметика:о-шугаринге:о-ногтевом-сервисе:о-косметике:index"/>
     <file name="logo-vk-u3715.png" crc="99835431" ref="акции:услуги:статьи:контакты:шугаринг:ногтевой-сервис:косметика:о-шугаринге:о-ногтевом-сервисе:о-косметике:index"/>
     <file name="logo-vk-u3715-r.png" crc="3820621218" ref="акции:услуги:статьи:контакты:шугаринг:ногтевой-сервис:косметика:о-шугаринге:о-ногтевом-сервисе:о-косметике:index"/>
-    <file name="kartinkijaneru-56595-u5011-fr.png" crc="191632531" ref="phone>index:акции"/>
+    <file name="kartinkijaneru-56595-u5011-fr.png" crc="191632531" ref="phone>index"/>
     <file name="u5012-4.png" crc="321486952" ref="phone>index"/>
     <file name="u5013-4.png" crc="4077877228" ref="phone>index"/>
     <file name="f-u5047.png" crc="3994944796" ref="phone>index"/>
@@ -60,34 +60,20 @@
     <file name="logo-vk-u5048-r.png" crc="178879466" ref="phone>index"/>
     <file name="194303-1ycn9s1394536379-u5049.png" crc="4215417461" ref="phone>index"/>
     <file name="194303-1ycn9s1394536379-u5049-r.png" crc="4178350943" ref="phone>index"/>
-    <file name="u3988-grad.png" crc="4249123894" ref="акции"/>
-    <file name="u3988-r-grad.png" crc="504569475" ref="акции"/>
-    <file name="u3988-m-grad.png" crc="147582542" ref="акции"/>
-    <file name="u3988-a-grad.png" crc="4193439749" ref="акции"/>
-    <file name="u3990-4.png" crc="518923837" ref="акции:услуги:статьи:контакты:шугаринг:ногтевой-сервис:косметика:о-шугаринге:о-ногтевом-сервисе:о-косметике:index"/>
-    <file name="u3997-4.png" crc="373261697" ref="акции:услуги:статьи:контакты:шугаринг:ногтевой-сервис:косметика:о-шугаринге:о-ногтевом-сервисе:о-косметике:index"/>
-    <file name="u4033-4.png" crc="361256810" ref="акции:услуги:статьи:контакты:шугаринг:ногтевой-сервис:косметика:о-шугаринге:о-ногтевом-сервисе:о-косметике:index"/>
-    <file name="u4096-grad.png" crc="4219139074" ref="акции"/>
-    <file name="u4096-r-grad.png" crc="3887289243" ref="акции"/>
-    <file name="u4096-a-grad.png" crc="411989884" ref="акции"/>
-    <file name="u4057-4.png" crc="252339551" ref="акции:услуги:статьи:контакты:шугаринг:ногтевой-сервис:косметика:о-шугаринге:о-ногтевом-сервисе:о-косметике:index"/>
-    <file name="u4159-grad.png" crc="216628250" ref="акции"/>
-    <file name="u4159-r-grad.png" crc="3983404781" ref="акции"/>
-    <file name="u4159-a-grad.png" crc="4181957768" ref="акции"/>
-    <file name="u4077-4.png" crc="417149688" ref="акции:услуги:статьи:контакты:шугаринг:ногтевой-сервис:косметика:о-шугаринге:о-ногтевом-сервисе:о-косметике:index"/>
     <file name="f-u3714-a.png" crc="111996372" ref="акции:услуги:статьи:контакты:шугаринг:ногтевой-сервис:косметика:о-шугаринге:о-ногтевом-сервисе:о-косметике:index"/>
     <file name="194303-1ycn9s1394536379-u3716-a.png" crc="11627400" ref="акции:услуги:статьи:контакты:шугаринг:ногтевой-сервис:косметика:о-шугаринге:о-ногтевом-сервисе:о-косметике:index"/>
     <file name="logo-vk-u3715-a.png" crc="3820621218" ref="акции:услуги:статьи:контакты:шугаринг:ногтевой-сервис:косметика:о-шугаринге:о-ногтевом-сервисе:о-косметике:index"/>
+    <file name="kartinkijaneru-56595-u3673-fr.png" crc="191632531" ref="акции"/>
   </folder>
-  <file name="index.html" crc="170657727" seo="true" mt="1480293809421" redirect="true"/>
-  <file name="шугаринг.html" crc="94008524" seo="true" mt="1480293809421" redirect="true"/>
-  <file name="ногтевой-сервис.html" crc="164389093" seo="true" mt="1480293809421" redirect="true"/>
-  <file name="косметика.html" crc="10228093" seo="true" mt="1480293809421" redirect="true"/>
-  <file name="акции.html" crc="3831839355" seo="true" mt="1480293809421" redirect="true"/>
-  <file name="услуги.html" crc="371665021" seo="true" mt="1480293809421" redirect="true"/>
-  <file name="статьи.html" crc="533691521" seo="true" mt="1480293809421" redirect="true"/>
-  <file name="контакты.html" crc="244569420" seo="true" mt="1480293809421" redirect="true"/>
-  <file name="о-шугаринге.html" crc="175520070" seo="true" mt="1480293809421" redirect="true"/>
-  <file name="о-ногтевом-сервисе.html" crc="4070871755" seo="true" mt="1480293809421" redirect="true"/>
-  <file name="о-косметике.html" crc="454961808" seo="true" mt="1480293809421" redirect="true"/>
+  <file name="index.html" crc="45712795" seo="true" mt="1480296263883" redirect="true"/>
+  <file name="шугаринг.html" crc="3776777157" seo="true" mt="1480296198464" redirect="true"/>
+  <file name="ногтевой-сервис.html" crc="527203337" seo="true" mt="1480296198464" redirect="true"/>
+  <file name="косметика.html" crc="426004495" seo="true" mt="1480296198464" redirect="true"/>
+  <file name="акции.html" crc="4236175320" seo="true" mt="1480296198464" redirect="true"/>
+  <file name="услуги.html" crc="4067436348" seo="true" mt="1480296198464" redirect="true"/>
+  <file name="статьи.html" crc="3784164533" seo="true" mt="1480296198464" redirect="true"/>
+  <file name="контакты.html" crc="4266356520" seo="true" mt="1480296198464" redirect="true"/>
+  <file name="о-шугаринге.html" crc="4096836306" seo="true" mt="1480296198464" redirect="true"/>
+  <file name="о-ногтевом-сервисе.html" crc="3977429507" seo="true" mt="1480296198464" redirect="true"/>
+  <file name="о-косметике.html" crc="359490290" seo="true" mt="1480296198464" redirect="true"/>
 </manifest>
