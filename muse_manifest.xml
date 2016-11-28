@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.2.0.352" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="Sugarmalibu.ru" resolutions="1x" timestamp="1480296880589">
+<manifest alg="2" build="2015.2.0.352" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="Sugarmalibu.ru" resolutions="1x" timestamp="1480297764263">
   <folder name="phone">
     <folder name="css">
       <file name="index.css" crc="520423333" ref="phone>index"/>
@@ -65,7 +65,7 @@
     <file name="logo-vk-u3715-a.png" crc="3820621218" ref="акции:услуги:статьи:контакты:шугаринг:ногтевой-сервис:косметика:о-шугаринге:о-ногтевом-сервисе:о-косметике:index"/>
     <file name="kartinkijaneru-56595-u3673-fr.png" crc="191632531" ref="акции:index:контакты"/>
   </folder>
-  <file name="index.html" crc="4238445529" seo="true" mt="1480296263883" redirect="true"/>
+  <file name="index.html" crc="4238445529" seo="true" mt="1480297736301" redirect="true"/>
   <file name="шугаринг.html" crc="3776777157" seo="true" mt="1480296198464" redirect="true"/>
   <file name="ногтевой-сервис.html" crc="527203337" seo="true" mt="1480296198464" redirect="true"/>
   <file name="косметика.html" crc="426004495" seo="true" mt="1480296198464" redirect="true"/>
