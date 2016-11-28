@@ -1,9 +1,9 @@
-<manifest alg="2" build="2015.2.0.352" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="Sugarmalibu.ru" resolutions="1x" timestamp="1480297764263">
+<manifest alg="2" build="2015.2.0.352" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="Sugarmalibu.ru" resolutions="1x" timestamp="1480299110426">
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="520423333" ref="phone>index"/>
+      <file name="index.css" crc="3927247193" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="4030354705" seo="true" mt="1480294606875" redirect="true"/>
+    <file name="index.html" crc="470117814" seo="true" mt="1480299051102" redirect="true"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="3916556066"/>
